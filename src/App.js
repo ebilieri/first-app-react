@@ -8,6 +8,7 @@ import { Paper, Button } from '@material-ui/core'
 import Titulo from './componentes/Titulo'
 import Example from './componentes/Example'
 import SecondExample from './componentes/SecondExample'
+import CenterMode from './componentes/CenterMode'
 
 
 
@@ -68,6 +69,7 @@ function App() {
         Meu Primeiro componente
       </Titulo>
 
+      
 
       <div>
         <Example />

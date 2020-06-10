@@ -35,8 +35,6 @@ function Banner(props) {
                 <Typography className="Caption">
                     {props.item.Caption}
                 </Typography>
-
-                
             </CardContent>
         </Grid>
     )
@@ -128,17 +126,17 @@ const items = [
     }
     ,
     {
-        Name: "Decoratives",
+        Name: "Cars",
         Caption: "Give style and color to your living room!",
         contentPosition: "right",
         Items: [
             {
-                Name: "car Room Lamp",
-                Image: "https://source.unsplash.com/featured/?car"
+                Name: "Car Lamborghini",
+                Image: "https://source.unsplash.com/featured/?lamborghini"
             },
             {
-                Name: "car Vase",
-                Image: "https://source.unsplash.com/featured/?car"
+                Name: "Car Limousine",
+                Image: "https://source.unsplash.com/featured/?limousine"
             }
         ]
     }
