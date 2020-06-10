@@ -1,0 +1,37 @@
+@import 'global';
+
+.imgCorousel{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+.SecondExample
+{
+    width: 98%;
+
+    .Project
+    {
+        text-align: center;
+        position: relative;
+        height: 400px;
+        overflow: hidden;
+        padding: 20px;
+
+        *
+        {
+            color: white;
+        }
+
+        .CheckButton
+        {
+            margin-top: 40px;
+            color: white;
+
+            font-size: $header-font-size;
+            border: 3px solid white;
+            text-transform: capitalize;
+
+            // transition: 200ms;
+        }
+    }
+}
