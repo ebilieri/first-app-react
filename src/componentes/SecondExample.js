@@ -20,17 +20,12 @@ function Project(props)
     return (
         <Paper 
             className="Project"
-            style={{
-                backgroundColor: props.item.color, 
-            }}
             elevation={10}
         >
-            
+            <h4>{props.item.name}</h4>
             <div>
                 <img className="imgCorousel" src={props.item.imagem} />
             </div>
-
-            
         </Paper>
     )
 }
